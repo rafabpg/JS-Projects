@@ -1,0 +1,46 @@
+body{
+    background-color:#a0eeff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.message_block{
+    box-shadow: 20px 20px 60px #88cad9, -20px -20px 60px #b8ffff;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;   
+}
+#input_screen{
+    background:#a0eeff ;
+    border: none;
+    resize: none;
+    outline: none;
+    padding: 1rem .8rem;
+    font-size: 1rem;
+    height: 12rem;
+}
+.title_counter{
+    background-color: aqua;
+}
+.title_counter h1{
+    text-align: center;
+    padding: .6rem 0 ;
+    margin: 0;
+}
+.counter_words{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 1rem;
+    background-color: aqua;
+    margin: 0;
+    gap: 15px;
+}
+.counter_words span{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.hidden{
+    display: none;
+}
